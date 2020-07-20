@@ -18,6 +18,10 @@ elif UserInput == "scissors" and CPUOption == "rock":
 elif UserInput == CPUOption:
     print(line)
     print("DRAW!")
+elif UserInput == "":
+    print("You didn't enter anything")
+elif UserInput != OptionsList:
+    print("Error")
 else:
     print(line + "\nCPU chose: " + CPUOption)
     print("You won!")
