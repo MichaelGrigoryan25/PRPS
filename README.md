@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors
+# Python Rock, Paper, Scissors
 Made with Python by [Michael-Grigoryan](https://github.com/MichaelGrigoryan25)
 
 ###### Skip this step if you are working with JupyterLab/Jupyter Notebook or Google Colaboratory
