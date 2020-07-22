@@ -10,7 +10,7 @@ def start():
     if UserInput == "rock" and CPUOption == "paper":
         print(line)
         print(CPUOption + "\nYou Lost")
-    elif UserInput == '' and OptionsList != UserInput:
+    elif UserInput != OptionsList and OptionsList != UserInput:
         print(ErrorMessage)
     elif UserInput == "paper" and CPUOption == "scissors":
         print(line)
